@@ -48,6 +48,14 @@ public class User{
         this.name = name;
     }
 
+    public String getAddresses() {
+        return addresses;
+    }
+
+    public void setAddresses(String addresses) {
+        this.addresses = addresses;
+    }
+
     @Override
     public String toString() {
         return "User{" +
