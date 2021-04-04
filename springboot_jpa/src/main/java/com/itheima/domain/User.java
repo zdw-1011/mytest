@@ -47,7 +47,7 @@ public class User{
     public void setName(String name) {
         this.name = name;
     }
-    //地址信息变更
+    //地址信息变更了
     public String getAddresses() {
         return address;
     }
