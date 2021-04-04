@@ -15,7 +15,6 @@ public class User{
     private String username;
     private String password;
     private String name;
-    private String address;
     public Long getId() {
         return id;
     }
@@ -46,14 +45,6 @@ public class User{
 
     public void setName(String name) {
         this.name = name;
-    }
-    //地址信息变更了
-    public String getAddresses() {
-        return address;
-    }
-
-    public void setAddresses(String addresses) {
-        this.address = addresses;
     }
 
     @Override
