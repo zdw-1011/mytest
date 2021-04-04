@@ -8,13 +8,14 @@ import javax.persistence.Id;
 @Entity
 public class User{
 
+    //主键生成策略
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String username;
     private String password;
     private String name;
-
+    private String addresses;
     public Long getId() {
         return id;
     }
