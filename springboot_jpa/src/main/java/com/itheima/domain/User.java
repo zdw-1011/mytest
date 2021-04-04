@@ -15,7 +15,7 @@ public class User{
     private String username;
     private String password;
     private String name;
-    private String addresses;
+    private String address;
     public Long getId() {
         return id;
     }
