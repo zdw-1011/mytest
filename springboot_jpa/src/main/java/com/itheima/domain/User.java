@@ -49,11 +49,11 @@ public class User{
     }
 
     public String getAddresses() {
-        return addresses;
+        return address;
     }
 
     public void setAddresses(String addresses) {
-        this.addresses = addresses;
+        this.address = addresses;
     }
 
     @Override
