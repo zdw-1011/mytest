@@ -10,4 +10,5 @@ public class Info {
     private String address;
     private String number;
     private String age;
+    private String name;
 }
