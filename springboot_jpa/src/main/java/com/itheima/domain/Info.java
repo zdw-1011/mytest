@@ -9,4 +9,5 @@ import lombok.Data;
 public class Info {
     private String address;
     private String number;
+    private String age;
 }
