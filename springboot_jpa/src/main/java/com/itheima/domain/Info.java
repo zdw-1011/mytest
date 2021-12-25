@@ -11,4 +11,5 @@ public class Info {
     private String number;
     private String age;
     private String name;
+    private String city;
 }
